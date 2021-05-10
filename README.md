@@ -1,5 +1,1 @@
-# React/Redux Starter Project
-
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
-
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+This is my The Life and Times project for the Capstone test at Devcamp
