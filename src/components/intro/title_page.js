@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import {
+    Link
+} from "react-router-dom";
+
+
 
 export default class TitlePage extends Component {
     render() {
@@ -7,7 +12,10 @@ export default class TitlePage extends Component {
                 <h1>The Life and Times</h1>
                 <h3>By CapArken20</h3>
 
-                <p>Begin your journey</p>
+
+                <Link to="/intro">
+                    Begin your journey
+                </Link>
                 {/* Link to next page */}
             </div>
         )
