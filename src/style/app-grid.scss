@@ -1,0 +1,8 @@
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 175px auto;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    @include page-size;
+
+}

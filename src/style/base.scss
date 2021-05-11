@@ -1,0 +1,11 @@
+html,
+body {
+    margin: 0;
+    @include page-size;
+    .app-wrapper {
+        @include page-size;
+        .app {
+            @include page-size;
+        }
+    }
+}

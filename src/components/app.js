@@ -13,7 +13,7 @@ export default class App extends Component {
       <div className='app'>
 
         <Router>
-          <div>
+          <div className="content-wrapper">
             <NavBar />
               <Switch>
                 <Route exact path="/" component={TitlePage} />

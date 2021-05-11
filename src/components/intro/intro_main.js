@@ -12,7 +12,7 @@ export default class IntroPage extends Component {
                 <br></br>
                 Now you will be playing as a boy named John. John is the oldest boy in a family of 6. His pastimes include reading and playing board games when he gets the chance. In this story you will decide how he will reacts to certain situations and that will determine the ending you get.</p>
                 <h4>WARNING! Saves are not persistent between sessions.</h4>
-                <Link className="intro_links" to="/intro-family">
+                <Link className="intro-links" to="/intro-family">
                     What about his family?  
                 </Link>
             </div>

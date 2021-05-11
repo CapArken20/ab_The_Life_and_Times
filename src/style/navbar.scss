@@ -1,0 +1,27 @@
+.navbar-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    background-color: darkblue;
+    color: skyblue;
+
+    .save-load-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    a {
+        color: skyblue;
+        text-decoration: none;
+        border: gray 3px solid;
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+}
