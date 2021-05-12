@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Navbar extends Component {
     constructor(props) {
@@ -32,7 +33,7 @@ export default class Navbar extends Component {
         })
     };
 
-        
+
 
     handleLoadStart() {
         this.setState({
@@ -54,8 +55,9 @@ export default class Navbar extends Component {
 
                 <Link onClick={this.handleRestart} to="/intro">Restart</Link>
                 <div className="save-load-wrapper">
-                    <button className="btn-standard" onClick={this.handleSuccesfulSave}>Save</button>
-                    <button className="btn-standard" onClick={this.handleLoadStart}>Load</button>
+                    <button className="btn-standard" onClick={this.handleSuccesfulSave}> <FontAwesomeIcon icon="save" /> Save</button>
+                    <button className="btn-standard" onClick={this.handleLoadStart}>
+                     <FontAwesomeIcon icon="save" /> Load</button>
                     {(this.state.loading === true)
                         ?
                         <Link onClick={this.handleSuccesfulLoad} className="warning-load" to={this.state.url}>Are you sure? Loading will make you lose your progress. Click here to continue.</Link>

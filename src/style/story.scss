@@ -5,4 +5,15 @@
     justify-content: center;
     background-color: #30358c;
     padding: 50px;
+
+    .story-text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .save-warning {
+        color: red;
+        font-weight: 600;
+        font-size: 18px;
+    }
 }

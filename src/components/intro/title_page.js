@@ -14,7 +14,7 @@ export default class TitlePage extends Component {
                 <h3 className="author">By CapArken20</h3>
 
 
-                <Link to="/intro">
+                <Link className="story-link" to="/intro">
                     Begin your journey
                 </Link>
                 </div>
