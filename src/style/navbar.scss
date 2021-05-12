@@ -6,7 +6,7 @@
     height: 100%;
     align-items: center;
     background-color: darkblue;
-    color: skyblue;
+    color: #ccf1ff;
 
     .save-load-wrapper {
         display: grid;
@@ -14,11 +14,8 @@
     }
 
     a {
-        color: skyblue;
-        text-decoration: none;
         border: gray 3px solid;
         border-radius: 5px;
-        padding: 5px 5px;
     }
 
     h4 {

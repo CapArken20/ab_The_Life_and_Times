@@ -1,6 +1,9 @@
 html,
 body {
+    font-family: "Josefin Sans", sans-serif;
     margin: 0;
+    overflow: hidden;
+    color: #ccf1ff;
     @include page-size;
     .app-wrapper {
         @include page-size;
@@ -8,4 +11,10 @@ body {
             @include page-size;
         }
     }
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+    padding: 5px;
 }

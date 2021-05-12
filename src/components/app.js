@@ -15,7 +15,7 @@ export default class App extends Component {
         <Router>
           <div className="content-wrapper">
             <NavBar />
-              <Switch>
+              <Switch >
                 <Route exact path="/" component={TitlePage} />
                 <Route path="/intro" component={IntroPage} />
                 <Route path="/intro-family" component={IntroPage1}/>
