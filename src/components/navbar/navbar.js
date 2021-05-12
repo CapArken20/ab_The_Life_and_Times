@@ -51,7 +51,7 @@ export default class Navbar extends Component {
         return (
             <div className="navbar-wrapper">
                 <h4>The Life and Times <br></br>
-                    By Aric Bell</h4>
+                    By CapArken20</h4>
 
                 <Link onClick={this.handleRestart} to="/intro">Restart</Link>
                 <div className="save-load-wrapper">

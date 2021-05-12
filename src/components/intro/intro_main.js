@@ -13,7 +13,7 @@ export default class IntroPage extends Component {
                 <p className="save-warning">WARNING! Saves are not persistent between sessions.</p>
                 </div>
                 <div className="story-text">
-                Now you will be playing as a boy named John. John is the oldest boy in a family of 6. He is 17 years old. His pastimes include reading and playing board games when he gets the chance. In this story you will decide how he will reacts to certain situations and that will determine the ending you get.</div>
+                Now you will be playing as a boy named John. John is the oldest boy in a family of 6. He is 17 years old. His pastimes include reading and playing board games when he gets the chance. He works at a restaurant. In this story you will decide how he will reacts to certain situations and that will determine the ending you get.</div>
                 
                 <Link className="story-link" to="/intro-family">
                     What about his family?  
